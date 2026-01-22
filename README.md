@@ -1,34 +1,53 @@
 # Building-with-Lovable-and-Gemini-Pro
 
-Context
+## Context
+
 This practical session is designed to help participants rapidly prototype a digital product using AI-powered tools.
 The goal is not to build a perfect product, but to:
 
-Clarify ideas
-Translate ideas into structured product thinking
-Produce a functional, interactive prototype that can be tested, shared, or pitched
+1. Clarify ideas
+2. Translate ideas into structured product thinking
+3. Produce a functional, interactive prototype that can be tested, shared, or pitched
 
 Participants will use AI tools as thinking partners, not just generators, to move from idea → PRD → prototype.
-Challenge Overview
+
+## Challenge Overview
 Participants will select one challenge and create a prototype solution.
-Challenge Options
-ChallengeDescriptionLost & Found SystemA platform for university students to report, search, and claim lost or found itemsPersonal PortfolioA personal website to showcase skills, projects, and experienceSmall Business BookingA website that allows customers to book services online
-Scope
-Example Scope Template (Applied Per Challenge)
-ItemDescriptionThe Challenge[Selected challenge]WhyClearly describe the real-world problem this product solvesTarget UsersPrimary users who experience this problemSectorEducation / Personal Branding / Small BusinessTarget LocationContext-specific (e.g. University, Online, Local city)AimWhat success looks like for the userDesired OutputAn interactive prototype demonstrating core functionality
 
-Note: Participants should fill this table for their selected challenge before proceeding.
+### Challenge Options
+| Challenge | Description |
+|-----------|-------------|
+| Lost & Found System | A platform for university students to report, search, and claim lost or found items |
+| Personal Portfolio | A personal website to showcase skills, projects, and experience |
+| Small Business Booking | A website that allows customers to book services online |
 
-PRD Creation
+### Scope
+#### Example Scope Template (Applied Per Challenge)
+| Item | Description |
+|------|-------------|
+| The Challenge | [Selected challenge] |
+| Why | Clearly describe the real-world problem this product solves |
+| Target Users | Primary users who experience this problem |
+| Sector | Education / Personal Branding / Small Business |
+| Target Location | Context-specific (e.g. University, Online, Local city) |
+| Aim | What success looks like for the user |
+| Desired Output | An interactive prototype demonstrating core functionality |
+
+**Note:** Participants should fill this table for their selected challenge before proceeding.
+
+### PRD Creation
 The first step is to create a Product Requirements Document (PRD) that will guide the prototyping process.
 The PRD acts as:
 
-A thinking tool
-A communication artifact
-A blueprint for building the prototype
+- A thinking tool
+- A communication artifact
+- A blueprint for building the prototype
 
 Participants may choose one of the two PRD prompts below and are encouraged to tweak them to better fit their selected challenge.
-PRD Prompt Option 1: PRD Architect
+
+## PRD Prompt Option 1: PRD Architect
+
+```
 <Role>
 You are an expert Product Manager with extensive experience in creating comprehensive Product Requirement Documents (PRDs).
 You specialize in early-stage products, MVP definition, and rapid prototyping.
@@ -79,7 +98,11 @@ Produce a structured PRD with clear headings, bullet points, and tables where he
 <User_Input>
 Reply with: "Please enter your product requirements request and I will start the PRD creation process."
 </User_Input>
-PRD Prompt Option 2: Guided PRD Creation
+```
+
+## PRD Prompt Option 2: Guided PRD Creation
+
+```
 ROLE:
 You are an expert Product Manager assistant and requirements analyst.
 
@@ -117,8 +140,13 @@ Professional, collaborative, and inquisitive.
 
 LET'S BEGIN:
 Ask your first clarifying questions based on my brain dump.
-UX Flow & Structure (Optional but Recommended)
+```
+
+### UX Flow & Structure (Optional but Recommended)
+
 After completing the PRD, participants may use AI to define user flows and screens.
+
+```
 You are a UX Designer specializing in early-stage MVPs.
 
 Using the PRD below:
@@ -127,9 +155,14 @@ Using the PRD below:
 - Describe the purpose and main action of each screen
 
 Focus on clarity and simplicity.
-Prototyping Prompt
+```
+
+## Prototyping Prompt
 Once the PRD is refined, it will be used to generate a prototype using a vibe coding tool.
-Prototyping Prompt (Lovable-ready)
+
+***Prototyping Prompt (Lovable-ready)***
+
+```
 You are designing a single, functional MVP for [platform name].
 
 Build exactly what is described below.
@@ -145,8 +178,12 @@ Build Requirements:
 - Make the output export-ready for Lovable
 
 If information is missing, generate a minimal, usable default without expanding scope.
-Iteration & Refinement
+```
+
+### Iteration & Refinement
 After generating the first prototype, participants can iterate using simple text prompts:
+
+```
 Review this prototype as a first-time user.
 
 Identify:
@@ -156,26 +193,28 @@ Identify:
 - Opportunities to simplify
 
 Suggest quick, high-impact changes only.
-Outcome & Purpose
+```
+
+### Outcome & Purpose
 The final prototype is intended to:
 
-Gather early user feedback
-Demonstrate user flows and logic
-Help engineers and stakeholders understand the problem-solution fit
+- Gather early user feedback
+- Demonstrate user flows and logic
+- Help engineers and stakeholders understand the problem-solution fit
 
-The goal is clarity, not perfection.
-Tools
-Primary Tool
+***The goal is clarity, not perfection.***
 
-Lovable
+### Tools
+#### Primary Tool
+
+- Lovable
+- Gemini Pro
 
 Optional Tools
 
-Bolt
-Base44
-Replit
-Cursor
-Vercel
+- Bolt
+- Replit
+- Cursor
 
 
-Free tiers are sufficient for this challenge.
+**Free tiers are sufficient for this challenge.**
