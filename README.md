@@ -163,21 +163,30 @@ Once the PRD is refined, it will be used to generate a prototype using a vibe co
 ***Prototyping Prompt (Lovable-ready)***
 
 ```
-You are designing a single, functional MVP for [platform name].
+You are an expert Full Stack Engineer and UI/UX Designer.
 
-Build exactly what is described below.
-Do not add future features or make assumptions beyond the PRD.
+I have attached brand guidelines, logos, and/or inspiration images.
+Create a functional, interactive prototype based on the requirements below.
 
-[PASTE PRD HERE]
+[PASTE PRD OR SUMMARY HERE]
 
-Build Requirements:
-- Handle all states: default, loading, success, empty, error
-- Use placeholder content where needed
-- Follow acceptance criteria defined in the PRD
-- Keep scope minimal and focused
-- Make the output export-ready for Lovable
+**Visual & Brand Implementation:**
+- **Analysis:** Analyze the attached images to extract the primary brand colors, rounded corner styles, and visual "vibe."
+- **Logo:** Use the attached logo in the main navigation bar.
+- **Palette:** Apply the extracted brand colors to buttons, active states, and highlights.
+- **Typography:** Select a font style (e.g., Sans-serif, Serif, Mono) that matches the personality of the attached assets.
 
-If information is missing, generate a minimal, usable default without expanding scope.
+**Technical Stack:**
+- **Framework:** React with Tailwind CSS
+- **UI Library:** Use shadcn/ui components for a polished feel
+- **Icons:** Use Lucide React
+
+**Implementation Guidelines:**
+- Build ONLY the core features listed in the MVP definition.
+- Ensure smooth transitions and clear feedback states.
+- If specific copy is missing, use realistic, professional placeholders.
+
+Build the solution now, ensuring the design matches the attached visual identity.
 ```
 
 ### Iteration & Refinement
